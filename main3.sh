@@ -20,3 +20,5 @@ for region in $regions; do
     fi
   done
 done
+# Remove the cloned repository
+rm -rf automate-lamda-runtime
